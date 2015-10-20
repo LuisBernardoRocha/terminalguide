@@ -1,4 +1,4 @@
-# Git Cheatsheet
+# Luis' Git Cheatsheet
 
 ### Start a new project
 
