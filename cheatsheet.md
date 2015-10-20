@@ -29,3 +29,20 @@ First, create a repo via github
 $ git remote add origin git@github.com:<githubusername>/<repositoryname>.git
 $ git push -u origin master
 ```
+
+### Help someone else with their code
+
+First, find the code on githb that you want to contribute to.
+Then Fork it!
+
+```shell
+$ git clone git@github.com:<your username>/_How_to_Repo.git
+```
+
+Then, make some changes you think are important.
+
+```shell
+$ git add <your files>
+$ git commit -m "A really thorough explanation of what we did since this is someone else's work."
+$ git push origin master
+```
