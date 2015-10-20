@@ -1,4 +1,4 @@
-# Git Cheatsheet
+#Jonathan's Git Cheatsheet
 
 ### Start a new project
 
@@ -29,3 +29,20 @@ First, create a repo via github
 $ git remote add origin git@github.com:<githubusername>/<repositoryname>.git
 $ git push -u origin master
 ```
+
+### Contribute to someone elses's code
+First, find the code on github that you want to contribute to
+
+Then Fork it!
+
+```shell
+$ git clone git@github.com:<your username>/<repo_name>.git
+```
+
+Then, make some changes you think are important.
+
+
+```shell
+$ git add <your files>
+$ git commit -m "A very thorough explanation of what we did since this it someone else's work."
+$ git push origin master
